@@ -26,8 +26,7 @@ public class Home_5 {
         javaLessonsMap.forEach((a, b) -> System.out.println("Номер урока: " + a + ". Тема урока (с изумлением): " + b));
         System.out.println();
 
-        // 4. Добавить нового автора и название книги если соответствующего ключа не
-        // было.
+        // 4. 
         Map<String, String> map = new TreeMap<>();
         System.out.println(
                 "Задание №1\nИнициализируем словарь в котором будут храниться номра и темы уроков по курсу \"Знакомство с JAVA\"");
